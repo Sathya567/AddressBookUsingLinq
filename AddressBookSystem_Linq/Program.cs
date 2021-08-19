@@ -87,6 +87,7 @@ namespace AddressBookSystem_Linq
                         case 9:
                             dataTable.GetCountByAddressBookType();
                             break;
+
                         case 10:
                             Environment.Exit(0);
                             break;
@@ -103,3 +104,4 @@ namespace AddressBookSystem_Linq
         }
     }
 }
+
