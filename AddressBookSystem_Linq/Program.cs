@@ -10,6 +10,7 @@ namespace AddressBookSystem_Linq
             AddressBookModel model = new AddressBookModel();
             AddressBookDataTable dataTable = new AddressBookDataTable();
             dataTable.CreateTable(model);
+            dataTable.Display();
         }
     }
 }
